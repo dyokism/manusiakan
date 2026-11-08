@@ -7,8 +7,6 @@
 
 Skill ini bekerja pada ragam formal (makalah, jurnal, artikel ilmiah) maupun semi-formal (esai telaah, tugas kuliah, korespondensi akademik). Pondasinya bertumpu pada tertib ortografi EYD V, pembongkaran kalk terjemahan asing (*translationese*), serta tradisi kepenulisan lugas khas LP3ES/Prisma, Kompas, dan Tempo.
 
----
-
 ## Contoh Transformasi (Sebelum & Sesudah)
 
 **Sebelum (Draf Sintetis AI):**
@@ -16,8 +14,6 @@ Skill ini bekerja pada ragam formal (makalah, jurnal, artikel ilmiah) maupun sem
 
 **Sesudah (Hasil Manusiakan):**
 > Gawai pintar di genggaman anak muda hari ini terus memompa hasrat belanja. Linimasa media sosial berubah menjadi etalase raksasa yang menyodorkan barang dagangan setiap kali jempol menggulir layar. Godaan hadir setiap detik. Mahasiswa terdorong membeli barang tren bukan karena butuh, melainkan demi menjaga gengsi di depan kawan sebaya. Demi validasi semu berupa ketukan jempol dan pujian di kolom komentar, uang saku bulanan dari orang tua kerap habis terpotong sebelum akhir bulan.
-
----
 
 ## Hasil Uji Empiris & Benchmark
 
@@ -30,8 +26,6 @@ Uji banding terkontrol pada naskah bertema *Dampak Media Sosial terhadap Gaya Hi
 
 > **Skor deteksi turun dari 94% ke 0%**. Bukti tangkapan layar serta draf uji ragam formal dan semi-formal tersimpan rapi di direktori [benchmark/](benchmark/README.md).
 
----
-
 ## Lima Prinsip Inti
 
 1. **Bongkar Pembuka Klise**: Tanggalkan basa-basi usang (*Di era modern...*, *Tidak dapat dimungkiri bahwa...*). Masuk langsung ke pokok persoalan sejak kalimat pertama (*in medias res*).
@@ -39,8 +33,6 @@ Uji banding terkontrol pada naskah bertema *Dampak Media Sosial terhadap Gaya Hi
 3. **Urai Nominalisasi, Hadirkan Pelaku**: Pecah tumpukan kata benda abstrak `pe-an`/`ke-an` menjadi kata kerja aktif `meng-`. Tunjukkan siapa yang memikul tindakan agar kalimat tidak melayang di ruang hampa.
 4. **Pecah Monotoni Ritme**: Jangan biarkan panjang kalimat seragam (17–22 kata). Setiap alinea memadukan kalimat pemukul pendek (3–7 kata) dengan kalimat majemuk bertingkat (30–45 kata) yang beranak-kalimat dinamis.
 5. **Tertibkan Tipografi**: Buang seluruh tanda pisah em dash (`—`), en dash (`–`), tanda hubung ganda (`--`), serta daftar poin mekanis berlabel tebal.
-
----
 
 ## Tabel Dekonstruksi Kalk Terjemahan
 
@@ -58,8 +50,6 @@ Uji banding terkontrol pada naskah bertema *Dampak Media Sosial terhadap Gaya Hi
 | `Berada di garis depan...` | Kalk militer *at the forefront of* yang dipaksakan | memelopori, memimpin, menginisiasi, berada di garda depan |
 | `Memiliki dampak pada...` | Struktur pasif nominal dari *have an impact on* | berdampak pada, mempengaruhi, mengguncang, menekan |
 | `Menyoroti kebutuhan akan...` | Kalk mekanis dari *highlight the need for* | mendesak perlunya, menuntut adanya, menunjukkan urgensi |
-
----
 
 ## Cara Pemasangan
 
@@ -97,16 +87,12 @@ git clone https://github.com/dyokism/manusiakan.git ~/.gemini/config/skills/manu
 npx skills add dyokism/manusiakan --global --agent '*'
 ```
 
----
-
 ## Batasan Etis & Integritas Akademik
 
 Manusiakan menajamkan daya cerna, variasi sintaksis, dan ketepatan diksi pemikiran orisinal penulis.
 
 > [!IMPORTANT]
 > Keahlian ini **bukan** sarana penyamaran teks fabrikasi demi plagiarisme atau jalan pintas menghindari penalaran mandiri. Sitasi rujukan, data numerik, nama tokoh, dan pokok argumen dari draf asal wajib dipertahankan seutuhnya tanpa fabrikasi spekulatif.
-
----
 
 ## Lisensi
 
