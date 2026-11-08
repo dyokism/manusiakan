@@ -1,7 +1,7 @@
 {
   "name": "manusiakan",
-  "description": "Menghapus pola sintetis AI, kalk terjemahan bahasa Inggris, dan gaya birokratis dari teks bahasa Indonesia formal dan semi-formal agar berdaya cerna tinggi, bernas, dan bernyawa.",
-  "version": "1.0.0",
+  "description": "Membersihkan dan menghapus tanda-tanda teks sintetis AI dari tulisan bahasa Indonesia secara presisi tanpa merombak gaya orisinal penulis.",
+  "version": "2.0.0",
   "author": {
     "name": "dyokism",
     "url": "https://github.com/dyokism"

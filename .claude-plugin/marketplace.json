@@ -10,7 +10,7 @@
     {
       "name": "manusiakan",
       "source": "./",
-      "description": "Menghapus pola sintetis AI, kalk terjemahan bahasa Inggris, dan gaya birokratis dari teks bahasa Indonesia formal dan semi-formal agar berdaya cerna tinggi, bernas, dan bernyawa.",
+      "description": "Membersihkan dan menghapus tanda-tanda teks sintetis AI dari tulisan bahasa Indonesia secara presisi tanpa merombak gaya orisinal penulis.",
       "license": "MIT",
       "keywords": [
         "writing",

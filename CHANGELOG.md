@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+
+Perombakan total paradigma Manusiakan dari orientasi *ZeroGPT bypass* menuju *Surgical AI Removal* berbasis pedoman komunitas Wikipedia (WP:AISIGNS) dan inspirasi `blader/humanizer`.
+
+- **Bedah Presisi Tanpa Merusak Suara Penulis**: Mengganti frasa bermasalah tepat pada tempatnya, menjaga alur penalaran dan register asli tanpa memaksakan perubahan gaya atau diksi berat.
+- **Workflow 3-Pass Terstruktur**: Menerapkan alur audit (Pass 1), refactor terukur (Pass 2), dan finalisasi fakta tanpa halusinasi (Pass 3).
+- **Penghapusan Aturan Berlebih**: Mengeliminasi paksaan *burstiness* ekstrem (rasio 3–7 kata vs 30–45 kata), de-nominalisasi kaku, dan pemaksaan gaya editorial tertentu (Prisma/Kompas/Tempo).
+- **Format Luaran Transparan**: Teks hasil revisi disajikan langsung disertai blok catatan pembersihan ringkas di akhir.
+- **Pembersihan Draf Alami**: Jika teks masukan sudah wajar dan minim pola AI, draf dipertahankan seutuhnya tanpa mencari-cari kesalahan.
+- **Pembersihan Repositori**: Menghapus direktori `benchmark/` untuk mengakhiri ketergantungan semu pada skor detektor AI matematis.
+
 ## 1.0.0
 
 Rilis perdana Manusiakan: standar kepenulisan agen cerdas untuk merombak teks sintetis AI menjadi bahasa Indonesia bernas, tajam, dan cendekia.
