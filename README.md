@@ -1,7 +1,7 @@
 # Manusiakan
 
 [![Lisensi MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Versi](https://img.shields.io/badge/version-2.0.0-green.svg)](CHANGELOG.md)
+[![Versi](https://img.shields.io/badge/version-2.0.1-green.svg)](CHANGELOG.md)
 
 Pernah baca draf tulisan yang langsung kebongkar kalau itu buatan AI? Kalimat pembuka klise *"Di era digital saat ini..."*, frasa terjemahan kaku kayak *"memainkan peran krusial"*, atau taburan em dash (`—`) di mana-mana.
 
@@ -18,11 +18,6 @@ Biar kelihatan bedanya, intip contoh bedah terukur di bawah ini:
 
 **Sesudah (Hasil Bedah Presisi `manusiakan`):**
 > Keberadaan media sosial sangat memengaruhi pola perilaku konsumtif generasi muda. Berbagai platform seperti Instagram, TikTok, dan e-commerce terus membombardir pengguna dengan konten promosi yang persuasif. Akibatnya, tren pembelian impulsif meningkat; mahasiswa kerap memprioritaskan gaya hidup dibanding kebutuhan pokok demi memenuhi validasi sosial di lingkungannya.
-
-> [!NOTE] Catatan Pembersihan AI:
-> - Memangkas pembuka klise (*Di era digital...*, *Tidak dapat dimungkiri bahwa...*).
-> - Mengikis kalk terjemahan asing (*memainkan peran krusial* → *sangat memengaruhi*, *menavigasi* → *memenuhi*, *lanskap* → *lingkungan*).
-> - Menghapus em dash (`—`) dan menyederhanakan sambungan antarkalimat.
 
 ## Empat Kluster yang Dibersihkan
 

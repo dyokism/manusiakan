@@ -21,9 +21,9 @@ Jaga portabilitas skill ini agar tetap netral dan dapat berjalan di Claude Code,
 
 ## Aturan Perubahan
 
-1. **Sinkronisasi Versi**: Versi yang sama (SemVer 3 bagian, misal `2.0.0`) **wajib** identik di:
+1. **Sinkronisasi Versi**: Versi yang sama (SemVer 3 bagian, misal `2.0.1`) **wajib** identik di:
    - `SKILL.md` (di bawah `metadata.version`).
-   - `CHANGELOG.md` (tajuk tingkat dua pertama: `## 2.0.0`).
+   - `CHANGELOG.md` (tajuk tingkat dua pertama: `## 2.0.1`).
    - `.claude-plugin/plugin.json` (field `"version"`).
 2. **Sinkronisasi Deskripsi**: Kalimat pertama deskripsi pada `SKILL.md` harus sama persis dengan field `description` pada `.claude-plugin/plugin.json` dan entri plugin di `.claude-plugin/marketplace.json`.
 3. **Batas Kata (*Word Budget*)**: Setiap kata di `SKILL.md` dibaca oleh model pada tiap pemanggilan. Jaga agar ukuran `SKILL.md` tetap berada di bawah **5.500 kata** (skrip validasi akan menolak jika melebihi batas ini).

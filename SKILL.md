@@ -4,7 +4,7 @@ description: |
   Membersihkan dan menghapus tanda-tanda teks sintetis AI dari tulisan bahasa Indonesia secara presisi tanpa merombak gaya orisinal penulis. Trigger ketika diminta "manusiakan teks", "manusiakan draf", "hilangkan bahasa AI", "bersihkan pola AI", "remove AI writing", "rapikan gaya AI", atau mengoreksi teks yang terindikasi buatan ChatGPT/Claude/Gemini. Dilarang trigger untuk teks bahasa Inggris (gunakan sibling skill humanizer), penulisan esai dari nol, perombakan gaya sastra/kreatif non-AI, atau penulisan kode program. Anchors on tanda AI, kalk terjemahan, em dash, inflation words, negative parallelism, Wikipedia AI Cleanup, WP:AISIGNS.
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: dyokism
 ---
 
@@ -29,8 +29,7 @@ Pembersihan tanda-tanda teks sintetis kecerdasan buatan (LLM) pada tulisan bahas
    - Jika draf sudah alami dengan minim tanda AI, pertahankan teks aslinya dan hindari perombakan berlebih.
 3. **Verifikasi & Format Luaran (Pass 3 - Finalisasi)**:
    - Jaga integritas fakta secara mutlak: dilarang menambah, mengubah, atau menghapus angka, data, nama, atau sitasi faktual.
-   - Sajikan teks hasil revisi secara utuh dan bersih.
-   - Sertakan catatan ringkas 1–3 poin di bawah teks mengenai pola AI yang dibersihkan (atau konfirmasi bahwa draf sudah bersih).
+   - Sajikan teks hasil revisi secara utuh, bersih, dan langsung siap pakai tanpa catatan pembersihan, kecuali pengguna eksplisit memintanya.
 
 ## Tabel Panduan Frasa & Kalk Terjemahan AI
 
@@ -56,15 +55,12 @@ Pembersihan tanda-tanda teks sintetis kecerdasan buatan (LLM) pada tulisan bahas
 
 ## Format Luaran
 
-Keluarkan langsung teks hasil tanpa pengantar obrolan atau salam penutup.
-Di bagian akhir teks, sertakan catatan pembersihan singkat:
+Keluarkan langsung teks hasil tanpa pengantar obrolan, salam penutup, atau catatan pembersihan. Hasil akhir harus 100% teks bersih yang siap langsung disalin dan digunakan.
 
-```markdown
-> [!NOTE] Catatan Pembersihan AI:
-> - [Pola yang dihapus/diperbaiki, misal: pembuka klise, kalk terjemahan, em dash]
-```
+Jika dan hanya jika pengguna secara eksplisit meminta penjelasan atau catatan perubahan (misal: "jelaskan apa yang diubah"), berikan poin ringkas di akhir teks:
 
-*(Jika draf awal sudah bersih: `> [!NOTE] Catatan: Teks draf sudah natural dan bebas dari pola signifikan AI; tidak dilakukan perombakan.`)*
+Catatan Perubahan:
+- [Pola yang diperbaiki/dihapus, misal: pembuka klise, kalk terjemahan, em dash]
 
 ## Verification
 

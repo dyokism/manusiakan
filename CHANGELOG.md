@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1
+
+- **Format Luaran Murni Tanpa Catatan Default**: Menghapus blok catatan `[!NOTE]` otomatis di akhir luaran agar teks hasil revisi 100% bersih, rapi, dan siap langsung disalin tanpa artefak tag teknis.
+- **Catatan Berbasis Permintaan**: Catatan perubahan kini disajikan dengan format teks sederhana (`Catatan Perubahan:`) hanya saat diminta secara eksplisit oleh pengguna.
+
 ## 2.0.0
 
 Perombakan total paradigma Manusiakan dari orientasi *ZeroGPT bypass* menuju *Surgical AI Removal* berbasis pedoman komunitas Wikipedia (WP:AISIGNS) dan inspirasi `blader/humanizer`.
