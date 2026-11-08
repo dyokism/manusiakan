@@ -1,0 +1,23 @@
+{
+  "name": "manusiakan",
+  "description": "Menghapus pola sintetis AI, kalk terjemahan bahasa Inggris, dan gaya birokratis dari teks bahasa Indonesia formal dan semi-formal agar berdaya cerna tinggi, bernas, dan bernyawa.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dyokism",
+    "url": "https://github.com/dyokism"
+  },
+  "homepage": "https://github.com/dyokism/manusiakan",
+  "repository": "https://github.com/dyokism/manusiakan",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "bahasa-indonesia",
+    "humanize",
+    "manusiakan",
+    "prose",
+    "style",
+    "eyd"
+  ],
+  "skills": ["./"]
+}

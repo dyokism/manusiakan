@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "manusiakan",
+  "owner": {
+    "name": "dyokism",
+    "url": "https://github.com/dyokism"
+  },
+  "description": "Pasang Manusiakan sebagai Claude plugin.",
+  "plugins": [
+    {
+      "name": "manusiakan",
+      "source": "./",
+      "description": "Menghapus pola sintetis AI, kalk terjemahan bahasa Inggris, dan gaya birokratis dari teks bahasa Indonesia formal dan semi-formal agar berdaya cerna tinggi, bernas, dan bernyawa.",
+      "license": "MIT",
+      "keywords": [
+        "writing",
+        "editing",
+        "bahasa-indonesia",
+        "humanize",
+        "manusiakan",
+        "prose",
+        "style",
+        "eyd"
+      ]
+    }
+  ]
+}
