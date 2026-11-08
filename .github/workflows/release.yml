@@ -16,7 +16,7 @@ jobs:
 
       - name: Package .skill bundle
         run: |
-          zip -r manusiakan.skill SKILL.md LICENSE README.md
+          zip -r manusiakan.skill SKILL.md LICENSE
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

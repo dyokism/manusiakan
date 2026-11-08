@@ -70,5 +70,5 @@ git push origin main
 git push origin vX.Y.Z
 ```
 Setelah tag `vX.Y.Z` terdorong ke GitHub, GitHub Actions di `.github/workflows/release.yml` akan berjalan otomatis untuk:
-- Mengemas berkas `manusiakan.skill` (arsip ZIP berisi `SKILL.md`, `LICENSE`, dan `README.md` tanpa direktori manifest `.claude-plugin`).
+- Mengemas berkas `manusiakan.skill` (arsip ZIP berisi `SKILL.md` dan `LICENSE`).
 - Membuat GitHub Release resmi `vX.Y.Z` dengan catatan rilis terlampir.
