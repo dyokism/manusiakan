@@ -4,7 +4,7 @@ description: |
   Membersihkan dan menghapus tanda-tanda teks sintetis AI dari tulisan bahasa Indonesia secara presisi tanpa merombak gaya orisinal penulis. Trigger ketika diminta "manusiakan teks", "manusiakan draf", "hilangkan bahasa AI", "bersihkan pola AI", "remove AI writing", "rapikan gaya AI", atau mengoreksi teks yang terindikasi buatan ChatGPT/Claude/Gemini. Dilarang trigger untuk teks bahasa Inggris (gunakan sibling skill humanizer), penulisan esai dari nol, perombakan gaya sastra/kreatif non-AI, atau penulisan kode program. Anchors on tanda AI, kalk terjemahan, em dash, inflation words, negative parallelism, Wikipedia AI Cleanup, WP:AISIGNS.
 license: MIT
 metadata:
-  version: "2.0.1"
+  version: "2.1.0"
   author: dyokism
 ---
 
@@ -19,12 +19,14 @@ Pembersihan tanda-tanda teks sintetis kecerdasan buatan (LLM) pada tulisan bahas
 1. **Pindai & Identifikasi (Pass 1 - Audit)**:
    - Pindai draf terhadap 4 kategori penanda AI:
      - **Kata & Frasa Inflasi**: Frasa klise dan kalk terjemahan harfiah (*dalam lanskap*, *menyelami*, *memainkan peran krusial*).
-     - **Retorika Struktural**: Pembuka formulaik (*Di era digital saat ini...*, *Tidak dapat dimungkiri bahwa...*), pertentangan semu (*Bukan hanya X, melainkan Y*), enumerasi triadik mekanis (*A, B, dan C* yang dipaksakan), serta penutup khotbah/retorika biner.
+     - **Retorika Struktural**: Pembuka formulaik (*Di era digital saat ini...*, *Tidak dapat dimungkiri bahwa...*), bias kata pembuka probabilitas tinggi per model (*ChatGPT*: "Sebagai...", "Tentu,...", "Berikut...", "Dalam..."; *Claude*: "Berdasarkan...", "Dalam...", "Menurut..."; *Gemini*: "Berikut...", "Sementara...", "Ini..."; *DeepSeek*: "Berdasarkan...", "Langkah...", "Komprehensif..."), pertentangan semu (*Bukan hanya X, melainkan Y*), enumerasi triadik mekanis (*A, B, dan C* yang dipaksakan), serta penutup khotbah/retorika biner.
      - **Tipografi & Format**: Em dash (`—`) berulang, format daftar tebal mekanis (`**Kategori:** ...`), dan bullet point artifisial pengganti paragraf naratif.
      - **Artefak Chatbot**: Pembuka obrolan (*Tentu, berikut draf...*), penutup sopan (*Semoga bermanfaat!*), atau disclaimer model bahasa.
 2. **Bedah Terukur & De-AI (Pass 2 - Refactor)**:
    - Terapkan intervensi moderat: ganti frasa bermasalah langsung pada tempatnya. Tulis ulang satu kalimat utuh hanya jika pola AI menyatu erat dengan struktur sintaksis kalimat tersebut.
    - Pertahankan register, suara, alur penalaran, dan ragam kosakata asli pengguna tanpa memaksakan burstiness, ritme asimetris, atau jargon berat.
+   - Variasikan atau pangkas pembuka kalimat jika terindikasi kaku khas model LLM.
+   - Eliminasi *double hedging* berulang (*"ada kemungkinan bahwa sistem ini berpotensi dapat memberikan..."* $\rightarrow$ pangkas menjadi *"sistem ini berpotensi memberikan..."*).
    - Ganti em dash (`—`) dan en dash (`–`) dengan koma, tanda kurung, titik dua wajar, atau pemecahan kalimat sederhana.
    - Jika draf sudah alami dengan minim tanda AI, pertahankan teks aslinya dan hindari perombakan berlebih.
 3. **Verifikasi & Format Luaran (Pass 3 - Finalisasi)**:
@@ -41,6 +43,13 @@ Pembersihan tanda-tanda teks sintetis kecerdasan buatan (LLM) pada tulisan bahas
 | `Sebuah bukti nyata bagi...` | Kalk indefinit dari *a testament to* | bukti nyata, mencerminkan, menunjukkan |
 | `Menavigasi tantangan/isu` | Metafora maritim asing (*navigate challenges*) | menghadapi kendala, mengatasi persoalan, menyiasati |
 | `Permadani dari...` / `Mercusuar...` | Metafora puitik AI (*rich tapestry*, *beacon*) | keragaman, jalinan gagasan, tumpuan, pedoman |
+| `Tapestri [gagasan/budaya]` | Metafora tekstil klise (*rich tapestry*) | keberagaman, jalinan ide, perpaduan wawasan |
+| `Solusi/pendekatan yang tangguh` | Kalk kaku dari *robust* di luar konteks fisik | solusi andal, metode mantap, sistem solid |
+| `Interaksi dinamis antara X dan Y` | Kalk formulaik dari *interplay* | hubungan timbal balik, kaitan antara X dan Y |
+| `Pemahaman yang bernuansa` | Kata pengisi abstrak (*nuanced*) | pemahaman mendalam, telaah komprehensif |
+| `Menjembatani kesenjangan...` | Metafora manajerial klise (*bridge the gap*) | mengatasi celah, menyelaraskan perbedaan |
+| `Membuka potensi dari...` | Klise promosi AI (*unlock the potential*) | mengoptimalkan, memaksimalkan manfaat |
+| `Dari X hingga Y...` (di awal kalimat) | Kalk pembuka cakupan kaku (*ranging from*) | sebut langsung cakupan atau uraikan dalam kalimat |
 | `Penting untuk dicatat bahwa...` | Tiruan subjek semu (*it is important to note that*) | perlu dicatat bahwa, patut diingat, (atau hapus frasa) |
 | `Tidak dapat dimungkiri bahwa...` | Pengisi jeda pembuka kalimat klise | sesungguhnya, nyatanya, (atau langsung ke inti argumen) |
 | `Bukan hanya X, tetapi juga Y` | Formula dikotomi kaku (*Not only X, but Y*) | sebut langsung kedua poin secara sejajar atau fokus ke klaim utama tanpa kontras semu |

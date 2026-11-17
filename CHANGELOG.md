@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0
+
+- **Perluasan Filter Kalk Terjemahan**: Menambahkan 7 frasa sintetis berfrekuensi tinggi ke tabel rujukan (*tapestri*, *solusi tangguh*, *interaksi dinamis*, *pemahaman yang bernuansa*, *menjembatani kesenjangan*, *membuka potensi*, dan *dari X hingga Y* di awal kalimat).
+- **Audit Bias Kata Pembuka Model (Pass 1)**: Menambahkan panduan audit untuk mendeteksi dan memvariasikan pola pembuka formulaik probabilitas tinggi khas model LLM (ChatGPT, Claude, Gemini, DeepSeek).
+- **Eliminasi Double Hedging (Pass 2)**: Menambahkan aturan satu kualifikasi lugas guna memangkas penumpukan kata keraguan berulang yang melemahkan argumen.
+
 ## 2.0.1
 
 - **Format Luaran Murni Tanpa Catatan Default**: Menghapus blok catatan `[!NOTE]` otomatis di akhir luaran agar teks hasil revisi 100% bersih, rapi, dan siap langsung disalin tanpa artefak tag teknis.

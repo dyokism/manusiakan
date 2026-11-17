@@ -1,7 +1,7 @@
 # Manusiakan
 
 [![Lisensi MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Versi](https://img.shields.io/badge/version-2.0.1-green.svg)](CHANGELOG.md)
+[![Versi](https://img.shields.io/badge/version-2.1.0-green.svg)](CHANGELOG.md)
 
 Pernah baca draf tulisan yang langsung kebongkar kalau itu buatan AI? Kalimat pembuka klise *"Di era digital saat ini..."*, frasa terjemahan kaku kayak *"memainkan peran krusial"*, atau taburan em dash (`—`) di mana-mana.
 
@@ -40,6 +40,13 @@ Berikut beberapa kalk terjemahan bahasa Inggris yang paling sering lolos di draf
 | `Sebuah bukti nyata bagi...` | Kalk indefinit dari *a testament to* | bukti nyata, mencerminkan, menunjukkan |
 | `Menavigasi tantangan/isu` | Metafora maritim asing (*navigate challenges*) | menghadapi kendala, mengatasi persoalan, menyiasati |
 | `Permadani dari...` / `Mercusuar...` | Metafora puitik AI (*rich tapestry*, *beacon*) | keragaman, jalinan gagasan, tumpuan, pedoman |
+| `Tapestri [gagasan/budaya]` | Metafora tekstil klise (*rich tapestry*) | keberagaman, jalinan ide, perpaduan wawasan |
+| `Solusi/pendekatan yang tangguh` | Kalk kaku dari *robust* di luar konteks fisik | solusi andal, metode mantap, sistem solid |
+| `Interaksi dinamis antara X dan Y` | Kalk formulaik dari *interplay* | hubungan timbal balik, kaitan antara X dan Y |
+| `Pemahaman yang bernuansa` | Kata pengisi abstrak (*nuanced*) | pemahaman mendalam, telaah komprehensif |
+| `Menjembatani kesenjangan...` | Metafora manajerial klise (*bridge the gap*) | mengatasi celah, menyelaraskan perbedaan |
+| `Membuka potensi dari...` | Klise promosi AI (*unlock the potential*) | mengoptimalkan, memaksimalkan manfaat |
+| `Dari X hingga Y...` (di awal kalimat) | Kalk pembuka cakupan kaku (*ranging from*) | sebut langsung cakupan atau uraikan dalam kalimat |
 | `Penting untuk dicatat bahwa...` | Tiruan subjek semu (*it is important to note that*) | perlu dicatat bahwa, patut diingat, (atau hapus frasa) |
 | `Tidak dapat dimungkiri bahwa...` | Pengisi jeda pembuka kalimat klise | sesungguhnya, nyatanya, (atau langsung ke inti argumen) |
 | `Bukan hanya X, tetapi juga Y` | Formula dikotomi kaku (*Not only X, but Y*) | sebut langsung kedua poin sejajar tanpa kontras semu |
